@@ -1,0 +1,55 @@
+.addcomment{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .form__group{
+        margin-top: 30px;
+    }
+
+}
+
+.comment__field{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.commentfield__btns{
+    display: flex;
+
+}
+
+.newcomment{
+    margin-top: 20px;
+}
+
+.newadd{
+    margin-top: 20px;
+}
+
+.animate{
+    stroke: red;
+}
+
+.delete{
+    background-color: #0a2ea4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.icon{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.active{
+    fill: red;
+    
+}
